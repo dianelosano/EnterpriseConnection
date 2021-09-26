@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    position: relative;
+   min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+
+
+.header_principal{
+    color: #e6e61f;
+    background-color:#101065;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.imagem__header {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container2 {
+    max-width: 1050px;
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #000;
+}
+
+.intro{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.intro h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.container_secao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.secao {
+    max-width: 450px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.secao_image{
+    max-width: 400px;
+}
+
+.secao_subtitulo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #ffff00;
+    text-align: left;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+.secao_paragrafo {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    width: 90%;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 25px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.secao_link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #101065;
+    border-color: #101065;
+    width: 90%;
+    height: 40px;
+}
+
+.secao_link:hover {
+    background-color:  #1B1BA8;
+    border-color: #1B1BA8;
+    font-weight: bold;
+}
+
+.secao_musica{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.titulo_musica{
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+
+.playlist_spotify{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.secao_indicacao {
+    background-color: #000;
+    width: 100%;
+    height: 70vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.indicacao_titulo {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+
+
+
+.secao_series {
+    box-sizing: border-box;
+    max-width: 400px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #5a5353;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.seriesdiv {
+    padding-bottom: 50px;
+}
+
+.image_series {
+    max-width: 90%;    
+}
+
+.titulo_serie {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: rgb(1, 212, 212);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.info_serie{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.texto_serie{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.fixar_rodape {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    bottom: 0px;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+footer h2 {
+    color: rgb(230, 230, 31);
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer_texto {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* páginas individuais dos personagens: */
+.conteudo_personagens{
+    max-width: 1050px;
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #000;
+}
+
+.header_individual {
+    color: #e6e61f;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #101065;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0px 5px;
+}
+
+ul li{
+    list-style: none;
+}
+nav a {
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #ffff00;
+    font-size: 15px;
+}
+
+.intro_secao {
+    max-width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.imagem_intro {
+    height: 245px;
+    border-radius: 50%;
+}
+
+.intro_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22px;
+    max-width: 500px;
+    padding-right: 20px;
+}
+
+.titulo_intro {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffff00;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.paragrafo_intro {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.texto_ponto {
+    max-width: 90%;
+    margin-top: 50px;
+}
+
+.subtitulo_ponto {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #0bc6d3;
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.paragrafo_ponto {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: justify;
+    padding: 1px;
+}
+
+.ponto_turistico {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.ponto_subtitulo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #0bc6d3;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.avaliacao_chrysler,
+.avaliacao_empirestate,
+.avaliacao_madisonsquare,
+.avaliacao_brooksfieldplace,
+.avaliacao_ohekacastle,
+.avaliacao_centralpark,
+.avaliacao_lasertag,
+.avaliacao_hername {
+    color: #f1f174;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ponto_lista {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ponto_lista a {
+    color: #0bc6d3;
+    text-decoration: none;
+}
+
+.ponto_lista a:hover {
+    color: #f1f174;
+}
+
+.imagem_ponto {
+    width: 400px;
+    height: 520px;
+}
+

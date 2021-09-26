@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b0489d8f0d.js" crossorigin="anonymous"></script>
+    <title>Enterprise Connection</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Menu da pagina principal-->
+    <header class="header_principal">
+        <h2><i class="fas fa-umbrella"></i></h2>
+        <nav> 
+            <ul> 
+                <li><a href="#personagens">HIMYM TOUR &bull;</a></li>
+                <li><a href="./newyork.html">NEW YORK &bull;</a></li>
+                <li><a href="#musica">Playlist</a></li>
+                <li><a href="#series">+ SÉRIES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- conteudo individual -->
+    <div class="conteudo_principal">
+        <!-- container 1 imagem fundo nyc -->
+        <div class="imagem__header">
+            <img class="imagem__header" src="./images/fundo_novayork.png" />
+        </div>
+        <!-- fim container 1 -->
+
+        <!-- container 2 texto aqui deveria entrar margem responsiva -->
+        <div class="container2">
+            <div class="intro">
+                <h1>
+                    Crianças, deixe-me contar aquela vez que conheci Nova York assistindo How I Met Your Mother. Mas primeiro, preciso contar a minha história e a dos meus amigos, Barney, Robin, Lily e Marshall. Não se preocupem, a história é muito rápida e só vai durar 9 temporadas.
+                </h1>
+            </div>
+            <!--fim Intro text abaixo da imagem-->
+            <!--inicio secao personagens-->
+            <div class="container_secao" id = "personagens">
+
+                <!-- intro seção do barney -->
+                <div class="secao">
+                    <img class="personagem" src="./images/barneyOficial.png" alt="Imagem do Barney" class="secao_image">
+                    <h3 class="secao_subtitulo">Barney, O Legendário</h3>
+                    <p class="secao_paragrafo">
+                        Seu tio Barney tinha duas grandes paixões, Laser Tag e Clubes de Strip. Mas como aqui é 18+
+                        vamos falar apenas sobre realmente os lugares favoritos onde ele vivia experiências legen..
+                        espere um pouco… dárias!
+                    </p>
+                    <a href="./barney.html"><button class="secao_link">Suit up! Let's go to NY!</button></a>
+                </div>
+                <!-- fim seção do barney -->
+
+                <!-- intro seção da robin -->
+                <div class="secao">
+                    <img class="personagem" src="./images/robinOficial.png" alt="Imagem da Robin" class="secao_image">
+                    <h3 class="secao_subtitulo">Robin Sparkle, a Canadense</h3>
+                    <p class="secao_paragrafo">
+                        Sua tia Robin era canadense, o que significa que ela adora hóquei e caça… Como caça é ilegal
+                        aqui na cidade urbana, ela tinha que se contentar com locais que faziam ela se sentir em casa.
+                    </p>
+                    <a href="./robin.html"><button class="secao_link">Let's go to NY malls!</button></a>
+                </div>
+                <!-- fim seção da robin -->
+
+                <!-- intro seção da marshall e lilly -->
+                
+                <div class="secao">
+                    <img src="./images/lilyMarshallOficial.png" alt="Imagem da Lily e do Marshall" class="secao_image">
+                    <h3 class="secao_subtitulo">Lilypad e Marshmallow, o casal</h3>
+                    <p class="secao_paragrafo">
+                        Seus tios Marshall e Lily sempre estavam juntos e todos os rolês que faziam eram para lugares
+                        fofos de casal. Após encontrarem um híbrido de barata e rato, eles fizeram uma mudança extrema
+                        na vida deles...
+                    </p>
+                    <a href="./lilyMarshall.html"><button class="secao_link">This gonna be legen (wait for it) dary!</button></a> 
+                </div>
+                <!-- fim seção da marshall e lilly -->
+
+                <!-- intro seção do ted -->
+                <div class="secao">
+                    <img src="./images/tedOficial.jpeg" alt="Imagem do Ted" class="secao_image">
+                    <h3 class="secao_subtitulo">Ted, O arquiteto</h3>
+                    <p class="secao_paragrafo">
+                        Como vocês sabem, eu era conhecido como “Ted, o arquiteto”. Por ser muito culto e sábio, todos
+                        meus amigos me pediam para explicar sobre os prédios icônicos da paisagem da cidade.
+                    </p>
+                    <a href="./ted.html"><button class="secao_link">Have you met NY?</button></a>
+                </div>
+                <!-- fim seção do ted -->
+
+            </div>
+            <!--fim seçao personagens-->
+
+            <!--inicio seçao de musica-->
+            <div class="secao_musica" id = "musica"> 
+                <h2 class="titulo_musica">Entre no clima de NY:</h2>
+                <div class="playlist_spotify">
+                    <iframe src="https://open.spotify.com/embed/playlist/5awpOBlIJwwKCd031jTGNe?theme=0" width="60%"
+                        height="90" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+            </div>
+            <!--fim seção de musica-->
+
+            <!-- inicio seção indicacao -->
+            <div class="secao_indicacao" id="series">
+                <h1 class="indicacao_titulo">Quer mais histórias? Veja também outras séries que se passam em Nova York:
+                </h1>
+
+            <!--inicio container box series-->
+                <div class="seriesdiv">
+
+                <!-- intro seção do friends -->
+                <div class="secao_series">
+                   <a href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GXdbR_gOXWJuAuwEAACVH" target = "_blank"> 
+                    <img src="./images/friends.png" alt="Poster da serie Friends" class="image_series">
+                   </a>
+                    <h3 class="titulo_serie">FRIENDS</h3>
+                    <p class="info_serie">1994 - 10 temporadas</p>
+                    <p class="texto_serie">Seis amigos, três homens e três mulheres, enfrentam a vida e os amores em Nova York e adoram passar o tempo livre na cafeteria Central Perk. Sucesso dos anos 90, conheça Ross, Rachel, Monica, Chandler, Joey e Phoebe.</p>
+                </div>
+                <!-- fim seção do friends -->
+
+                 <!-- intro seção do gg -->
+                 <div class="secao_series">
+                  <a href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GX-EdhwKKy5rDwwEAAACK" target = "_blank">  
+                      <img src="./images/gossipgirl.png" alt="Poster da serie Gossip Girl" class="image_series">
+                  </a>
+                    <h3 class="titulo_serie">GOSSIP GIRL</h3>
+                    <p class="info_serie">2007 - 6 temporadas</p>
+                    <p class="texto_serie">Após passar um ano estudando fora por motivos misteriosos, Serena van der Woodsen (Blake Lively) está de volta em Nova York. Seu retorno agita o Upper East side, onde vivem os jovens mais privilegiados da cidade</p>
+                </div>
+                <!-- fim seção do gg -->
+
+                 <!-- intro seção do chris -->
+                 <div class="secao_series">
+                    <a href="https://www.primevideo.com/detail/amzn1.dv.gti.f6ba7191-abcc-29d2-8041-179c7221b704?ref_=dvm_pds_tit_br_dc_s_g_mkw_s0SVrkwKa-dc_pcrid_492358114976&mrntrk=slid__pgrid_116992351672_pgeo_1001767_x__ptid_kwd-312333753781" target = "_blank">
+                        <img src="./images/chris.png" alt="Poster da serie everybody hates Chris" class="image_series">
+                    </a>
+                    <h3 class="titulo_serie">EVERYBODY HATES CHRIS</h3>
+                    <p class="info_serie">1994 - 4 temporadas</p>
+                    <p class="texto_serie">Inspirado na vida de Chris Rock, Chris é um adolescente do Broolkyn dos anos 80 com uma excêntrica família composta pelo pai Julius, sua mãe Rochelle, sua irmã mimada Tonya e seu irmão Drew, que é bastante popular.</p>
+                </div>
+                <!-- fim seção do chris -->
+
+                 <!-- intro seção do sexcity -->
+                 <div class="secao_series">
+                   <a href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GVU2cAAPSJoNJjhsJATt6" target = "_blank"> 
+                    <img src="./images/sexandthecity.png"  alt="Poster da Serie Sex and the city" class="image_series">
+                   </a>
+                    <h3 class="titulo_serie">SEX AND THE CITY</h3>
+                    <p class="info_serie">1998 - 6 temporadas</p>
+                    <p class="texto_serie">A colunista Carrie Bradshaw e as amigas Samantha, Charlotte e Miranda exploram os altos e baixos do mundo dos solteiros em Nova York. Aos trinta e poucos anos de idade, elas são bonitas e bem-sucedidas.</p>
+                </div>
+                <!-- fim seção do sexcity -->
+
+
+                </div>
+            <!--fim container series container-->
+                    
+            </div>
+            <!-- fim seção indicação -->
+        </div>
+
+
+    </div>
+    <!-- fim conteudo home 1 -->
+
+    <!-- rodapé -->
+    <footer class="fixar_rodape">
+
+        <div class="footer_texto">
+            <p>Todos os direitos reservados <i class="far fa-copyright"></i> - 2021</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
